@@ -35,3 +35,4 @@ def test_get_not_invalid_id(api_client, student_id):
     assert response.status_code == 404, (
         f"Ожидали 404 для id={student_id}, получили {response.status_code}: {response.text}"
     )
+

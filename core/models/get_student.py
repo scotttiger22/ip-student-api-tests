@@ -14,3 +14,4 @@ class Student(BaseModel):
 class StudentsResponse(BaseModel):
     status: int
     students: List[Student]
+

@@ -67,3 +67,4 @@ def test_post_student_invalid_field(api_client, generate_random_student_data, fi
 
     response = api_client.post_student(payload)
     assert response['status'] == 0, f'if status = 1 bag {field} = {value}'
+

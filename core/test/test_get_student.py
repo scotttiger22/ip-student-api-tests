@@ -71,3 +71,4 @@ def test_get_invalid_id(api_client, student_id):
     assert response.status_code == 404, (
         f"Wait 404 for id={student_id}, response {response.status_code}: {response.text}"
     )
+

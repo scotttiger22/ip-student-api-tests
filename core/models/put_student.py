@@ -15,3 +15,4 @@ class StudentUpdatedResponse(BaseModel):
     message: str
     status: int
     student: Student
+

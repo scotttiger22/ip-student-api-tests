@@ -14,3 +14,4 @@ class Student(BaseModel):
 class StudentByIdResponse(BaseModel):
     status: int
     student: Student
+

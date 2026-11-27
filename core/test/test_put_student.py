@@ -46,3 +46,4 @@ def test_put_student_with_valid_data(api_client):
 
     assert response["message"] == "Wrong JSON, student not updated"
     assert response["status"] == 0
+
